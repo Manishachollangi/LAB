@@ -1,0 +1,21 @@
+commands:
+
+1. docker --version 
+    === to check the docker version
+
+2. docker ps
+   == to get running docker containers
+
+3. docker ps -a 
+   == to get all containers (exited once also)
+
+4. docker stop <docker_name>  ||  docker stop <docker_id>
+
+5. docker rm <docker_name>
+   == remove the container permnanently. (so it doesnt exists in -->  docker ps -a)
+
+6. docker images
+   == list of images
+
+7. docker rmi <image_name>
+   == removes the image , but rememeber before using this command you need to stop and delete the  containers of the respective image
