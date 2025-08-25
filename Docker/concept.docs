@@ -19,3 +19,14 @@ commands:
 
 7. docker rmi <image_name>
    == removes the image , but rememeber before using this command you need to stop and delete the  containers of the respective image
+
+8. docker pull <image_name>
+   == this command only pulls the image(downloads) but doesnt run the container, but docker run <img_name> command pulls if no image is there and runs.  
+
+9. docker run -d <image_name>
+   == container/sevrice runs in the background
+
+10. docker attch <image_name>
+    == makes the detached running container to run on the foreground on console
+    
+         
